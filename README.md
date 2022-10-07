@@ -32,3 +32,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Some of the add-on dependencies used for this projects
+
+[axios](https://www.npmjs.com/package/axios) : Axios is a promise based HTTP client for the browser and Node. js
+
+[react-query](https://tanstack.com/query/v4) : Powerful asynchronous state management for TS/JS, React, Solid, Vue and Svelte
+
+[tailwindcss](https://tailwindcss.com/) : It is a css framework where you can rapidly build modern websites without ever leaving your HTML [autoprefixer](https://www.npmjs.com/package/autoprefixer) and [postcss](https://github.com/postcss/postcss) to run the tailwind css on Next.js.
+
+[react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component) : Used this package to create smooth infinite scroll
+
+[heroicons](https://heroicons.com/) : Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.
