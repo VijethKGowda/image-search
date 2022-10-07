@@ -18,13 +18,15 @@ const ImageDisplay = ({ images }) => {
   return (
     <>
       <div key={images.id} className="group">
-        <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
-          <Image
-            src={images.webformatURL}
-            alt={images.id}
-            layout="fill"
-            className="h-full w-full object-cover object-center hover:opacity-75"
-          />
+        <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8 cursor-pointer">
+          <a href={images.largeImageURL} target="_blank" rel="noreferrer">
+            <Image
+              src={images.webformatURL}
+              alt={images.id}
+              layout="fill"
+              className="object-cover object-center hover:opacity-75"
+            />
+          </a>
         </div>
         <h3 className="mt-4 text-sm flex flex-wrap items-center gap-2 text-gray-700">
           Tags:
