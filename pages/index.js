@@ -33,7 +33,7 @@ const ImageDisplay = ({ images }) => {
               onClick={() => {
                 router.push(`?query=${tag}`);
               }}
-              className="bg-blue-500 px-3 py-1 rounded-2xl text-white flex items-center whitespace-nowrap cursor-pointer"
+              className="bg-blue-500 px-3 py-1 text-xs rounded-2xl text-white flex items-center whitespace-nowrap cursor-pointer"
               key={index}
             >
               {tag.trim()}

@@ -41,7 +41,7 @@ const Navbar = () => {
                 value={search}
                 autoComplete="off"
                 className="block w-full rounded-bl-md rounded-tl-md border border-blue-500 py-3 pl-10 pr-3 leading-5 placeholder-gray-500 focus:border-blue-500 focus:placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-500 sm:text-sm"
-                placeholder="Search your favorite character"
+                placeholder="Search image"
                 type="text"
               />
             </div>
