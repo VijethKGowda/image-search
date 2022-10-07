@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Check out [Live demo](https://image-search-lime.vercel.app/)
+
+or
+
 First, run the development server:
 
 ```bash
@@ -33,7 +37,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Some of the add-on dependencies used for this projects
+## Some of the add-on dependencies used in this projects
 
 [axios](https://www.npmjs.com/package/axios) : Axios is a promise based HTTP client for the browser and Node. js
 
